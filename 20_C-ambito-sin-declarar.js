@@ -17,3 +17,13 @@ while(cantidad > 20) {
   }
   cantidad--;
 }
+
+function listarElementos(coleccion) {
+  for (elemento  of coleccion) {
+    console.log(elemento);
+  }
+}
+
+let paises = ["España", "Argentina", "Colombia"];
+listarElementos(paises);
+console.log(elemento);
