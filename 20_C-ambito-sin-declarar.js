@@ -26,4 +26,4 @@ function listarElementos(coleccion) {
 
 let paises = ["España", "Argentina", "Colombia"];
 listarElementos(paises);
-console.log(elemento);
+console.log(elemento); // fijarse que puedo acceder a la variable "elemento", ya que no fue declarada
